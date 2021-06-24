@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Spinner from './Spinner';
-import request from 'superagent';
+// import Spinner from './Spinner';
 
 export default class Detail extends Component {
     render() {
         return (
             <div>
-                <Spinner />
+                {/* <Spinner /> */}
             </div>
         )
     }

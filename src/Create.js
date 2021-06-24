@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import request from 'superagent';
-import Spinner from './Spinner';
+// import request from 'superagent';
+// import Spinner from './Spinner';
 
 export default class Create extends Component {
     render() {

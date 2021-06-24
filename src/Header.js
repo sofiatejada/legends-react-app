@@ -7,8 +7,8 @@ export default class Header extends Component {
             <div>
                 <h3>Legends</h3>
                 <nav>
-                    <NavLink></NavLink>
-                    <NavLink></NavLink>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/legends">Legends List</NavLink>
                 </nav>
             </div>
         )
