@@ -1,6 +1,6 @@
 import request from "superagent";
 
-const mainURL = 'https://afternoon-plateau-07651.herokuapp.com/';
+const mainURL = 'https://afternoon-plateau-07651.herokuapp.com';
 
 export async function getItem(id) {
     const { body } = await request
