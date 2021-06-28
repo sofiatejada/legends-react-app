@@ -38,3 +38,10 @@ export async function createItem(legendData) {
     
     return body;
 }
+
+export async function getSpecialTypes() {
+    const { body } = await request
+    .post(`${mainURL}/special_type`)
+    
+    return body;
+}
